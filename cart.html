@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Корзина</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1><img src="logo.png"> </h1>
+        <h1>Ваші замовлення</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="contacts.html">Контакти</a></li>
+                <li><a href="about.html">Про нас</a></li>
+                <li><a href="cart.html">Корзина</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Ваші замовлення</h2>
+        <ul id="selectedProductsList">
+        </ul>
+        <button id="checkoutButton">Оформити замовлення</button>
+        <button id="cancelOrderButton">Скасувати замовлення</button>
+        <script src="script.js"></script>
+        <script>
+            displaySelectedProducts(); 
+        </script>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Alles GUT!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
